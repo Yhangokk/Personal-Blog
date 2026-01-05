@@ -36,27 +36,27 @@ interface SeoTdk {
 }
 // SEO TDK 首页
 export const homeTdk: SeoTdk = {
-	title: '这里是设计师陈熙的个人网站',
-	description: '这是我的设计师陈熙部分项目展示',
-	keywords: '陈熙,博客'
+	title: '这里是尘野Yhang的个人网站',
+	description: '这是我的部分项目展示',
+	keywords: '尘野Yhang,博客'
 }
 // SEO TDK 博客
 export const blogTdk: SeoTdk = {
-	title: '陈熙的博客',
+	title: '尘野Yhang的博客',
 	description: '记录我的一些想法和笔记',
-	keywords: '陈熙,博客,blog'
+	keywords: '尘野Yhang,博客,blog'
 }
 // SEO TDK 关于
 export const aboutTdk: SeoTdk = {
-	title: '设计师陈熙的个人介绍',
-	description: '设计师陈熙的个人介绍',
-	keywords: '陈熙,博客'
+	title: '尘野Yhang的个人介绍',
+	description: '尘野Yhang的个人介绍',
+	keywords: '尘野Yhang,博客'
 }
 // SEO TDK  项目
 export const projectTdk: SeoTdk = {
-	title: '陈熙的项目介绍',
+	title: '尘野Yhang的项目介绍',
 	description: '这是我的部分项目展示',
-	keywords: '陈熙,博客,project'
+	keywords: '尘野Yhang,博客,project'
 }
 // SEO TDK 404
 export const notFoundTdk: SeoTdk = {
@@ -140,7 +140,7 @@ interface PageDescription {
 	about?: string
 }
 export const pageDescription: PageDescription = {
-	index: '我是陈熙，一个拥有超过5年经验的创意设计师和开发人员，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
+	index: '我是尘野Yhang，一个拥有超过5年经验的创意设计师和开发人员，在这里可以了解更多关于我的信息，或者阅读我的一些文章和笔记。',
 	project: "这是我的部分项目展示",
 	about: '专注于产品、品牌、UI设计和视觉开发',
 	blog: '这是我的个人笔记和想法， 希望你能够获得帮助！',
